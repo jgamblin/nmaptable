@@ -1,7 +1,7 @@
 ## What
 
 Have you ever needed to provide nmap scan data in an easily understandable format? Have you noticed how hard it is to do?  So did I! 
-So I hacked together these tools using [Namp Grepable Output](https://nmap.org/book/output-formats-grepable-output.html), A bash script to convert it to a CSV and some [D3.js code](https://d3js.org/) I hacked togehter.   
+So I hacked together these tools using [Namp Grepable Output](https://nmap.org/book/output-formats-grepable-output.html), A bash script to convert it to a CSV and some [D3.js code](https://d3js.org/).
 
 ## How
 
