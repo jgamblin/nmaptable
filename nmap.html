@@ -177,7 +177,7 @@
 		                    })
 		                  .on('click', function(d) {
         headers.attr('class', 'header');
-        if (d == "Hostname" || d == "Version") { //these keys sort alphabetically
+        if (d == "Hostname" || d == "Service" || d == "Version" || d == "Protocol" || d == "Status") { //these keys sort alphabetically
           // sorting alphabetically");
           if (sortAscending) {
             rows.sort(function(a, b) {
