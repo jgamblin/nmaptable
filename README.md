@@ -21,3 +21,13 @@ Runnig this is as easy as:
 ## Demo? 
 
 You want a Demo? [Here you go!](http://htmlpreview.github.io/?https://raw.githubusercontent.com/jgamblin/nmaptable/master/nmap.html)
+
+## You want more?
+
+I added a shell script that will allow you to contiously scan your targets and update the webpage.  Edit the varaibles in continuousscan.sh and run it in a screen session. 
+
+`screen -s scan`
+
+`./continuousscan.sh`
+
+`ctrl+a d`
