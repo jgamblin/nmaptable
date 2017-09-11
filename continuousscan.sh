@@ -40,7 +40,7 @@ while true; do
         #Remove Old Data
         rm data.csv
         # Update Data:
-        ./nmapcsv.sh scan.gnmapp > data.csv
+        ./nmapcsv.sh scan.gnmap > data.csv
 
     done
 done
