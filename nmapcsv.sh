@@ -20,7 +20,7 @@ exit 0
 fi
 #
 # Echo out the CSV Header
-echo '"IP","Hostname","Port","Protocol","Status","Service","Version"'
+echo '"IP","Hostname","Port","Protocol","Version"'
 #
 # Loop through each service starting @ the Ports: section for each host
 # There's some pretty dirty assembling of the extended service detail instead
@@ -63,7 +63,7 @@ gsub(/,/,"",$X)
 #  - Quote everything
 #  - Comma separated
 #  - Newline terminated
-printf("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n", $2, $3, P[1], P[3], P[2], P[5], P[7])
+printf("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"\n", $2, $3, P[1], P[5], P[7])
 }
 }
 }
